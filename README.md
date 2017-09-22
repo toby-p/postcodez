@@ -3,6 +3,15 @@ Python module for managing badly formatted UK postcode data.
 
 The function takes a postcode in any format, and if it is a valid UK postcode returns it in the propert format, with the additional information of Longitude, Latitude, and London Borough (if applicable).
 
+### Installation
+
+Now available to install via pypi:
+
+```
+pip install -U postcodez
+```
+The installation includes ~39Mb of files with the valid UK postcode data.
+
 ### Example 1 - valid London postcode in bad format (no spaces, lower case)
 ```python
 postcodez("n146bb")
